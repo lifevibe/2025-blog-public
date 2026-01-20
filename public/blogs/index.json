@@ -1,5 +1,14 @@
 [
   {
+    "slug": "LinuxCYML",
+    "title": "Linux常用命令",
+    "tags": [],
+    "date": "2026-01-21T07:49",
+    "summary": "",
+    "hidden": false,
+    "category": "Linux"
+  },
+  {
     "slug": "FnOS",
     "title": "FnOS",
     "tags": [],
