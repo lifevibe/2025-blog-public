@@ -1,8 +1,8 @@
 {
 	"meta": {
-		"title": "123",
-		"description": "YYsuni 的个人博客，记录前端开发、探索、笔记。前端 UI 更新代码仓库。",
-		"username": "123"
+		"title": "𝕃𝕚𝕗ё𝕍𝕚𝔹ё - 𝐁𝐥𝐨𝐠",
+		"description": "𝕃𝕚𝕗ё𝕍𝕚𝔹ё - 𝐁𝐥𝐨𝐠记录，学习，笔记。",
+		"username": "𝕃𝕚𝕗ё𝕍𝕚𝔹ё"
 	},
 	"theme": {
 		"colorBrand": "#de4331",
@@ -42,25 +42,32 @@
 	"currentBackgroundImageId": "",
 	"socialButtons": [
 		{
-			"id": "github",
-			"type": "github",
-			"value": "https://github.com/yysuni",
-			"label": "Github",
-			"order": 3
+			"id": "email",
+			"type": "email",
+			"value": "admin@1766666.xyz",
+			"label": "",
+			"order": 1
 		},
 		{
-			"id": "juejin",
-			"type": "juejin",
-			"value": "https://juejin.cn/user/2427311675422382",
-			"label": "稀土掘金",
+			"id": "button-1768884580185",
+			"type": "wechat",
+			"value": "LifeVibe",
+			"label": "",
 			"order": 2
 		},
 		{
-			"id": "email",
-			"type": "email",
-			"value": "yysuni1001@gmail.com",
-			"label": "",
-			"order": 1
+			"id": "button-1768884615460",
+			"type": "link",
+			"value": "https://go.1766666.xyz",
+			"label": "书签",
+			"order": 3
+		},
+		{
+			"id": "button-1768884673697",
+			"type": "link",
+			"value": "https://note.1766666.xyz",
+			"label": "记事",
+			"order": 4
 		}
 	],
 	"clockShowSeconds": false,
