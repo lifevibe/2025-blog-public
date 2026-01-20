@@ -42,36 +42,29 @@
 	"currentBackgroundImageId": "",
 	"socialButtons": [
 		{
+			"id": "button-1768891104109",
+			"type": "github",
+			"value": "https://github.com/lifevibe",
+			"label": "",
+			"order": 1
+		},
+		{
 			"id": "email",
 			"type": "email",
 			"value": "admin@1766666.xyz",
 			"label": "",
-			"order": 1
+			"order": 2
 		},
 		{
 			"id": "button-1768884580185",
 			"type": "wechat",
 			"value": "LifeVibe",
 			"label": "",
-			"order": 2
-		},
-		{
-			"id": "button-1768884615460",
-			"type": "link",
-			"value": "https://go.1766666.xyz",
-			"label": "书签",
 			"order": 3
-		},
-		{
-			"id": "button-1768884673697",
-			"type": "link",
-			"value": "https://note.1766666.xyz",
-			"label": "记事",
-			"order": 4
 		}
 	],
-	"clockShowSeconds": false,
-	"summaryInContent": false,
+	"clockShowSeconds": true,
+	"summaryInContent": true,
 	"isCachePem": false,
 	"hideEditButton": false,
 	"enableCategories": true,
