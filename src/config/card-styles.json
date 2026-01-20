@@ -42,11 +42,11 @@
 		"enabled": true
 	},
 	"socialButtons": {
-		"width": 334,
-		"height": 50,
+		"width": 182,
+		"height": 66,
 		"order": 6,
-		"offsetX": -149,
-		"offsetY": 180,
+		"offsetX": -100,
+		"offsetY": 173,
 		"enabled": true
 	},
 	"shareCard": {
@@ -85,8 +85,8 @@
 		"width": 59,
 		"height": 63,
 		"order": 8,
-		"offsetX": 8,
-		"offsetY": 293,
+		"offsetX": -29,
+		"offsetY": 261,
 		"enabled": true
 	},
 	"hatCard": {
