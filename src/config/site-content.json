@@ -50,38 +50,38 @@
 	"currentBackgroundImageId": "ab25976d4fd669c3",
 	"socialButtons": [
 		{
+			"id": "button-1769004341210",
+			"type": "tiktok",
+			"value": "https://go.1766666.xyz",
+			"label": "Nav",
+			"order": 1
+		},
+		{
+			"id": "button-1769004357069",
+			"type": "tiktok",
+			"value": "https://note.1766666.xyz",
+			"label": "Note",
+			"order": 2
+		},
+		{
 			"id": "button-1768891104109",
 			"type": "github",
 			"value": "https://github.com/lifevibe",
 			"label": "",
-			"order": 1
+			"order": 3
 		},
 		{
 			"id": "email",
 			"type": "email",
 			"value": "admin@1766666.xyz",
 			"label": "",
-			"order": 2
+			"order": 4
 		},
 		{
 			"id": "button-1768884580185",
 			"type": "wechat",
 			"value": "LifeVibe",
 			"label": "",
-			"order": 3
-		},
-		{
-			"id": "button-1769004341210",
-			"type": "link",
-			"value": "https://go.1766666.xyz",
-			"label": "Nav",
-			"order": 4
-		},
-		{
-			"id": "button-1769004357069",
-			"type": "link",
-			"value": "https://note.1766666.xyz",
-			"label": "Note",
 			"order": 5
 		}
 	],
