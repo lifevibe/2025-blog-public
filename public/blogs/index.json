@@ -1,5 +1,14 @@
 [
   {
+    "slug": "StackEdit",
+    "title": "StackEdit",
+    "tags": [],
+    "date": "2026-01-21T11:39",
+    "summary": "",
+    "hidden": false,
+    "category": "Docker"
+  },
+  {
     "slug": "LookWorld",
     "title": "LookWorld",
     "tags": [],
