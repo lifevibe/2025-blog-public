@@ -98,5 +98,15 @@
 			"常用"
 		],
 		"stars": 5
+	},
+	{
+		"name": "IT-Tools",
+		"logo": "https://it-tools.tech/favicon.ico",
+		"url": "https://it-tools.tech/",
+		"description": "IT-Tools",
+		"tags": [
+			"常用"
+		],
+		"stars": 5
 	}
 ]
