@@ -78,5 +78,25 @@
 			"常用"
 		],
 		"stars": 5
+	},
+	{
+		"name": "阿里千问",
+		"logo": "https://assets.alicdn.com/g/qwenweb/qwen-chat-fe/0.1.32/favicon.png",
+		"url": "https://chat.qwen.ai/",
+		"description": "阿里千问",
+		"tags": [
+			"常用"
+		],
+		"stars": 5
+	},
+	{
+		"name": "文心一言",
+		"logo": "https://eb-static.cdn.bcebos.com/logo/favicon.ico",
+		"url": "https://yiyan.baidu.com/",
+		"description": "文心一言",
+		"tags": [
+			"常用"
+		],
+		"stars": 5
 	}
 ]
