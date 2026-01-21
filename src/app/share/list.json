@@ -38,5 +38,45 @@
 			"常用"
 		],
 		"stars": 5
+	},
+	{
+		"name": "EdgeOne",
+		"logo": "https://edgeone.ai/favicon.ico",
+		"url": "https://edgeone.ai/",
+		"description": "EdgeOne",
+		"tags": [
+			"常用"
+		],
+		"stars": 5
+	},
+	{
+		"name": "Vercel",
+		"logo": "https://assets.vercel.com/image/upload/q_auto/front/favicon/vercel/favicon.ico",
+		"url": "https://vercel.com/",
+		"description": "Vercel",
+		"tags": [
+			"常用"
+		],
+		"stars": 5
+	},
+	{
+		"name": "Test-ipv6",
+		"logo": "https://www.test-ipv6.com/images/favicon.ico",
+		"url": "https://www.test-ipv6.com/",
+		"description": "Test-ipv6",
+		"tags": [
+			"常用"
+		],
+		"stars": 5
+	},
+	{
+		"name": "ClawCloud",
+		"logo": "https://run.claw.cloud/favicon.ico",
+		"url": "https://run.claw.cloud",
+		"description": "ClawCloud",
+		"tags": [
+			"常用"
+		],
+		"stars": 5
 	}
 ]
