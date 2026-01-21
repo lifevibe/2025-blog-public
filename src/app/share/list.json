@@ -3,7 +3,7 @@
 		"name": "𝓝𝓪𝓿",
 		"logo": "https://img.icons8.com/led/32/heart-with-arrow.png",
 		"url": "https://go.1766666.xyz",
-		"description": "导航",
+		"description": "Nav",
 		"tags": [
 			"ԋσɱҽ"
 		],
@@ -13,9 +13,29 @@
 		"name": "笔记",
 		"logo": "https://img.icons8.com/doodle-line/60/file.png",
 		"url": "https://note.1766666.xyz",
-		"description": "记事",
+		"description": "笔记",
 		"tags": [
 			"ԋσɱҽ"
+		],
+		"stars": 5
+	},
+	{
+		"name": "新浪彩票",
+		"logo": "https://lotto.sina.cn/favicon.ico",
+		"url": "https://lotto.sina.cn/",
+		"description": "新浪彩票",
+		"tags": [
+			"常用"
+		],
+		"stars": 5
+	},
+	{
+		"name": "CloudFlare",
+		"logo": "https://img.icons8.com/color/48/cloudflare.png",
+		"url": "https://dash.cloudflare.com/login",
+		"description": "CloudFlare",
+		"tags": [
+			"常用"
 		],
 		"stars": 5
 	}
