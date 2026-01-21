@@ -51,16 +51,16 @@
 	"socialButtons": [
 		{
 			"id": "button-1769004341210",
-			"type": "tiktok",
+			"type": "link",
 			"value": "https://go.1766666.xyz",
-			"label": "",
+			"label": "Nav",
 			"order": 1
 		},
 		{
 			"id": "button-1769004357069",
-			"type": "tiktok",
+			"type": "link",
 			"value": "https://note.1766666.xyz",
-			"label": "",
+			"label": "Note",
 			"order": 2
 		},
 		{
