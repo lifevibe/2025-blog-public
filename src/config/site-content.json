@@ -69,6 +69,20 @@
 			"value": "LifeVibe",
 			"label": "",
 			"order": 3
+		},
+		{
+			"id": "button-1769004341210",
+			"type": "link",
+			"value": "https://go.1766666.xyz",
+			"label": "Nav",
+			"order": 4
+		},
+		{
+			"id": "button-1769004357069",
+			"type": "link",
+			"value": "https://note.1766666.xyz",
+			"label": "Note",
+			"order": 5
 		}
 	],
 	"clockShowSeconds": true,
