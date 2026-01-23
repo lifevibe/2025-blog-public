@@ -27,6 +27,7 @@ services:
       - ./database:/app/database
     restart: unless-stopped
 ```
+
 # ❷StackEdit
 
 ```
@@ -56,7 +57,9 @@ services:
     network_mode: bridge
     restart: always
 ```
-# ❸opengist
+
+# ❸Opengist
+
 ```
 services:
   opengist:
