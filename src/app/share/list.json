@@ -3,109 +3,19 @@
 		"name": "𝓝𝓪𝓿",
 		"logo": "https://img.icons8.com/led/32/heart-with-arrow.png",
 		"url": "https://go.1766666.xyz",
-		"description": "Nav",
+		"description": "𝓷𝓪𝓿",
 		"tags": [
 			"ԋσɱҽ"
 		],
 		"stars": 5
 	},
 	{
-		"name": "笔记",
+		"name": "𝓝𝓸𝓽𝓮",
 		"logo": "https://img.icons8.com/doodle-line/60/file.png",
 		"url": "https://note.1766666.xyz",
-		"description": "笔记",
+		"description": "𝓝𝓸𝓽𝓮",
 		"tags": [
 			"ԋσɱҽ"
-		],
-		"stars": 5
-	},
-	{
-		"name": "新浪彩票",
-		"logo": "https://lotto.sina.cn/favicon.ico",
-		"url": "https://lotto.sina.cn/",
-		"description": "新浪彩票",
-		"tags": [
-			"常用"
-		],
-		"stars": 5
-	},
-	{
-		"name": "CloudFlare",
-		"logo": "https://img.icons8.com/color/48/cloudflare.png",
-		"url": "https://dash.cloudflare.com/login",
-		"description": "CloudFlare",
-		"tags": [
-			"常用"
-		],
-		"stars": 5
-	},
-	{
-		"name": "EdgeOne",
-		"logo": "https://edgeone.ai/favicon.ico",
-		"url": "https://edgeone.ai/",
-		"description": "EdgeOne",
-		"tags": [
-			"常用"
-		],
-		"stars": 5
-	},
-	{
-		"name": "Vercel",
-		"logo": "https://assets.vercel.com/image/upload/q_auto/front/favicon/vercel/favicon.ico",
-		"url": "https://vercel.com/",
-		"description": "Vercel",
-		"tags": [
-			"常用"
-		],
-		"stars": 5
-	},
-	{
-		"name": "Test-ipv6",
-		"logo": "https://www.test-ipv6.com/images/favicon.ico",
-		"url": "https://www.test-ipv6.com/",
-		"description": "Test-ipv6",
-		"tags": [
-			"常用"
-		],
-		"stars": 5
-	},
-	{
-		"name": "ClawCloud",
-		"logo": "https://run.claw.cloud/favicon.ico",
-		"url": "https://run.claw.cloud",
-		"description": "ClawCloud",
-		"tags": [
-			"常用"
-		],
-		"stars": 5
-	},
-	{
-		"name": "阿里千问",
-		"logo": "https://assets.alicdn.com/g/qwenweb/qwen-chat-fe/0.1.32/favicon.png",
-		"url": "https://chat.qwen.ai/",
-		"description": "阿里千问",
-		"tags": [
-			"常用"
-		],
-		"stars": 5
-	},
-	{
-		"name": "文心一言",
-		"logo": "https://eb-static.cdn.bcebos.com/logo/favicon.ico",
-		"url": "https://yiyan.baidu.com/",
-		"description": "文心一言",
-		"tags": [
-			"常用"
-		],
-		"stars": 5
-	},
-	{
-		"name": "IT-Tools",
-		"logo": "https://it-tools.tech/favicon.ico",
-		"url": "https://it-tools.tech/",
-		"description": "IT-Tools",
-		"tags": [
-			"常用"
 		],
 		"stars": 5
 	},
@@ -114,6 +24,16 @@
 		"logo": "https://img.icons8.com/parakeet-partial-filled/48/image.png",
 		"url": "https://img.1766666.xyz",
 		"description": "𝓛𝓲𝓯𝓮𝓥𝓲𝓫𝓮 - 𝓲𝓶𝓰",
+		"tags": [
+			"ԋσɱҽ"
+		],
+		"stars": 5
+	},
+	{
+		"name": "𝓹𝓼",
+		"logo": "https://img.icons8.com/parakeet-partial-filled/48/image.png",
+		"url": "https://ps.1766666.xyz",
+		"description": "𝓹𝓼",
 		"tags": [
 			"ԋσɱҽ"
 		],
