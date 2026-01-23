@@ -56,3 +56,16 @@ services:
     network_mode: bridge
     restart: always
 ```
+# ❸opengist
+```
+services:
+  opengist:
+    image: thomiceli/opengist:latest
+    container_name: opengist
+    ports:
+      - 6157:6157
+      - 2222:2222
+    volumes:
+      - /vol1/1000/docker/opengist:/opengist
+    restart: unless-stopped
+```
