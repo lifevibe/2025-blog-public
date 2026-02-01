@@ -30,5 +30,248 @@ a3468015-413d-4619-a6a4-3d4c4c4f54ed
 ```
 U2FsdGVkX1/D72cSZBFnNy+306ip2f7D+0zZgr9K4LD1ZCxMRT8oiqjFS5D7Lh6FTi/sWg7wV0x0zQ5Ah3JgL5gbJaTz7VDfYpOrRY6N6PugeYie+w3GRZepH2aiY6imkWAPuS7Lpz+ImIb5SgmpQ0wKiu3it6JwvH2aTxgySk9+j9uvpBqSacDiN5IptbrmR49OQCLr0spUYqckj7YOEQ==
 ```
+# Docker 常用命令
+
+## 1.编辑docker-compose.yml
+```
+vim docker-compose.yml
+```
+## 2.运行docker-compose.yml
+```
+docker compose up -d
+```
+
+# ❶Nav
+
+```
+version: '3'
+services:
+  nav-item:
+    image: eooce/nav-item
+    container_name: nav-item
+    ports:
+      - "3000:3000"
+    environment:
+      - PORT=3000
+      - ADMIN_USERNAME=admin
+      - ADMIN_PASSWORD=123456
+    volumes:
+      - ./database:/app/database
+    restart: unless-stopped
+```
+
+# ❷StackEdit
+
+```
+version: "3.7"
+services:
+  stackedit:
+    image: mafgwo/stackedit
+    container_name: stackedit
+    environment:
+      - LISTENING_PORT=8080
+      - DEBUG_FLAG=false
+      - DROPBOX_APP_KEY=
+      - DROPBOX_APP_KEY_FULL=
+      - GITHUB_CLIENT_ID=
+      - GITHUB_CLIENT_SECRET=
+      - GITEE_CLIENT_ID=be63650f13e7223c7091d71bdf51a10588b7b9a75fc4bdb22002c89cae85cb93
+      - GITEE_CLIENT_SECRET=1e87bcad48c613a32409e578fcab29a90255c4636d182bedf97e81e7667f3b35
+      - GOOGLE_CLIENT_ID=
+      - GOOGLE_API_KEY=
+      - GITEA_CLIENT_ID=
+      - GITEA_CLIENT_SECRET=
+      - GITEA_URL=
+      - GITLAB_CLIENT_ID=
+      - GITLAB_CLIENT_SECRET=
+    ports:
+      - 8080:8080/tcp
+    network_mode: bridge
+    restart: always
+```
+
+# ❸Opengist
+
+```
+services:
+  opengist:
+    image: thomiceli/opengist:latest
+    container_name: opengist
+    ports:
+      - 6157:6157
+      - 2222:2222
+    volumes:
+      - /vol1/1000/docker/opengist:/opengist
+    restart: unless-stopped
+```
+
+
+
+# ❶3-XUI
+## 1.面板安装
+```
+bash <(curl -Ls https://raw.githubusercontent.com/xeefei/3x-ui/master/install.sh)
+```
+* 如果要申请安装证书并每3个月【自动续签】证书，请确保80和443端口是放行打开的
+## 2.面板设置
+
+> 1、已经安装证书的【路径】，位置在：/root/.acme.sh/（域名）_ecc；
+2、进入后台【面板设置】—–>【常规】中，去分别填入刚才已经记录的证书公钥、私钥路径；
+3、点击左上角的【保存】和【重启面板】，即可用自己域名进行登录管理。
+4、再次登录面板：域名:端口/路径
+* PS：若你在正确完成了上述步骤之后，你没有安装证书的情况下，去用IP+端口号/路径的方式却不能访问面板，那请检查一下是不是你的浏览器自动默认开启了https模式，需要手动调整一下改成http方式，把“s”去掉，即可访问成功。
+## 3.入站规则
+> 点击左边【入站列表】，然后【添加入站】，传输方式保持【TCP】不变,尽量选择主流的vless+reality+vision协议组合，在创建reality协议过程中,至于其他诸如：PROXY Protocol，HTTP 伪装，TPROXY，External Proxy等等选项，若无特殊要求，保持默认设置即可，不用去动它们,其他：流量限制，到期时间，客户TG的ID等选项根据自己需求填写
+* PS：一定要放行端口之后，确保端口能够ping通，再导入软件节点配置及功能方面
+# ❷Hysteria2
+## 1.系统组件升级至最新：
+```
+apt update -y && apt install -y curl && apt install -y socat
+```
+## 2.Hysteria 2 一键安装脚本
+```
+wget -N --no-check-certificate https://raw.githubusercontent.com/flame1ce/hysteria2-install/main/hysteria2-install-main/hy2/hysteria.sh && bash hysteria.sh
+```
+## 3.查看 hysteria 服务 状态
+```
+systemctl status hysteria-server.service
+```
+##  4.启动 hysteria 服务
+```
+systemctl start hysteria-server.service
+```
+##  5.设置 hysteria 服务 开机自启
+```
+systemctl enable hysteria-server.service
+```
+## 6.其他常用命令
+### 1.停止 hysteria 服务
+```
+systemctl stop hysteria-server.service
+```
+### 2.重启 hysteria 服务
+```
+systemctl restart hysteria-server.service
+```
+
+
+
+# ❶一键安装依赖
+## 1.Debian/Ubuntu系统
+```
+apt update -y&&apt install -y curl&&apt install -y socat
+```
+## 2.CentOS系统
+```
+yum update -y&&yum install -y curl&&yum install -y socat 
+```
+# ❷UFW防火墙
+### 1.一键放行22端口
+```
+apt install ufw && ufw allow 22/tcp && ufw enable
+```
+### 2.删除放行80端口
+```
+sudo ufw delete allow 80/tcp
+```
+### 3.查看和删除编号端口
+#### 查看放行端口[不带编号]
+```
+sudo ufw status verbose
+```
+#### 查看放行端口[带编号]
+```
+sudo ufw status numbered
+```
+#### 删除编号1的端口
+```
+sudo ufw delete 1
+```
+# ❸创建和删除文件
+```
+mkdir /mnt/data_vdb1
+```
+```
+rm /mnt/data_vdb1
+```
+# ❹查找文件和文件夹
+```
+sudo find / -type d -name "aria2"
+```
+```
+sudo find / -type f -iname "aria2.conf" 2>/dev/null
+```
+
+# Fn飞牛
+
+## 开启iommu
+```
+sudo -i
+```
+```
+nano /etc/default/grub #GRUB_CMDLINE_LINUX_DEFAULT="quiet i915.force_probe=7d55 intel_iommu=on iommu=pt"
+如果是amd处理器的话,将intel改成amd;修改完成以后,ctrl+s保存,ctrl+x退出即可
+```
+```
+cd /lib/firmware/rtl_nic/
+sudo wget https://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git/tree/rtl_nic/rtl8126a-2.fw
+```
+```
+cd /lib/firmware/rtl_nic/
+sudo wget https://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git/tree/rtl_nic/rtl8126a-3.fw
+```
+```
+cd /lib/firmware/i915/
+sudo wget https://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git/tree/i915/bmg_dmc.bin
+```
+```
+cd /lib/firmware/i915/
+sudo wget https://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git/tree/i915/xe2lpd_dmc.bin
+```
+```
+echo -e "vfio\nvfio_iommu_type1\nvfio_pci\nvfio_virqfd" >> /etc/modules
+
+```
+```
+update-grub
+```
+```
+update-initramfs -u -k all
+```
+
+# iStoreOS
+## 1.修改端口号
+```
+cd /etc/config/
+```
+```
+vim uhttpd
+```
+### ps:按:wq!reboot重启生效
+## 2.安装docker compose
+```
+opkg update
+```
+```
+opkg install docker-compose
+```
+## 3.解决opkg不能安装的问题
+```
+vim /etc/opkg.conf  #注释或删掉 /etc/opkg.conf 中的 option check_signature
+```
+```
+ vim /etc/opkg/compatfeeds.conf #后面加src/gz openwrt_dllkids https://op.dllkids.xyz/packages/x86_64/
+```
+```
+opkg update
+```
+```
+opkg install luci-app-xxx
+```
+### 软件库
+```
+https://op.dllkids.xyz/packages/x86_64/
+https://dl.openwrt.ai/packages-23.05/x86_64/
+```
 
 
