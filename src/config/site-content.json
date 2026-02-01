@@ -50,25 +50,25 @@
 	"currentBackgroundImageId": "url-1769934601696",
 	"socialButtons": [
 		{
-			"id": "github",
-			"type": "github",
-			"value": "https://github.com/yysuni",
-			"label": "Github",
-			"order": 3
+			"id": "juejin",
+			"type": "wechat",
+			"value": "LiFeViBe",
+			"label": "稀土掘金",
+			"order": 1
 		},
 		{
-			"id": "juejin",
-			"type": "juejin",
-			"value": "https://juejin.cn/user/2427311675422382",
-			"label": "稀土掘金",
+			"id": "github",
+			"type": "qq",
+			"value": "3364701390",
+			"label": "Github",
 			"order": 2
 		},
 		{
 			"id": "email",
 			"type": "email",
-			"value": "yysuni1001@gmail.com",
+			"value": "admin@1766666.xyz",
 			"label": "",
-			"order": 1
+			"order": 3
 		}
 	],
 	"clockShowSeconds": true,
