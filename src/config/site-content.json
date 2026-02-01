@@ -1,8 +1,8 @@
 {
 	"meta": {
-		"title": "YYs",
-		"description": "YYsuni 的个人博客，记录前端开发、探索、笔记。前端 UI 更新代码仓库。",
-		"username": "Suni"
+		"title": "ʟɪғᴇᴠɪʙᴇ▁ʙʟᴏɢ",
+		"description": "ʟɪғᴇᴠɪʙᴇ▁ʙʟᴏɢ，记录、学习、笔记。",
+		"username": "ʟɪғᴇᴠɪʙᴇ"
 	},
 	"theme": {
 		"colorBrand": "#de4331",
@@ -30,16 +30,24 @@
 		{
 			"id": "a46372ff45bc5524",
 			"url": "/images/art/a46372ff45bc5524.jpg"
+		},
+		{
+			"id": "url-1769934642198",
+			"url": "https://r.1766666.xyz/raw/img/logo"
 		}
 	],
-	"currentArtImageId": "a46372ff45bc5524",
+	"currentArtImageId": "url-1769934642198",
 	"backgroundImages": [
 		{
 			"id": "",
 			"url": ""
+		},
+		{
+			"id": "url-1769934601696",
+			"url": "https://r.1766666.xyz/raw/img/1.png"
 		}
 	],
-	"currentBackgroundImageId": "",
+	"currentBackgroundImageId": "url-1769934601696",
 	"socialButtons": [
 		{
 			"id": "github",
@@ -63,8 +71,8 @@
 			"order": 1
 		}
 	],
-	"clockShowSeconds": false,
-	"summaryInContent": false,
+	"clockShowSeconds": true,
+	"summaryInContent": true,
 	"isCachePem": false,
 	"hideEditButton": false,
 	"enableCategories": true,
