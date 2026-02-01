@@ -41,7 +41,9 @@ vim docker-compose.yml
 docker compose up -d
 ```
 
-# ❶Nav
+# Docker项目
+
+## ❶Nav
 
 ```
 version: '3'
@@ -60,7 +62,7 @@ services:
     restart: unless-stopped
 ```
 
-# ❷StackEdit
+## ❷StackEdit
 
 ```
 version: "3.7"
@@ -90,7 +92,7 @@ services:
     restart: always
 ```
 
-# ❸Opengist
+## ❸Opengist
 
 ```
 services:
@@ -106,8 +108,8 @@ services:
 ```
 
 
+# 3-XUI
 
-# ❶3-XUI
 ## 1.面板安装
 ```
 bash <(curl -Ls https://raw.githubusercontent.com/xeefei/3x-ui/master/install.sh)
@@ -123,12 +125,14 @@ bash <(curl -Ls https://raw.githubusercontent.com/xeefei/3x-ui/master/install.sh
 ## 3.入站规则
 > 点击左边【入站列表】，然后【添加入站】，传输方式保持【TCP】不变,尽量选择主流的vless+reality+vision协议组合，在创建reality协议过程中,至于其他诸如：PROXY Protocol，HTTP 伪装，TPROXY，External Proxy等等选项，若无特殊要求，保持默认设置即可，不用去动它们,其他：流量限制，到期时间，客户TG的ID等选项根据自己需求填写
 * PS：一定要放行端口之后，确保端口能够ping通，再导入软件节点配置及功能方面
-# ❷Hysteria2
+# Hysteria2
 ## 1.系统组件升级至最新：
 ```
 apt update -y && apt install -y curl && apt install -y socat
 ```
+
 ## 2.Hysteria 2 一键安装脚本
+
 ```
 wget -N --no-check-certificate https://raw.githubusercontent.com/flame1ce/hysteria2-install/main/hysteria2-install-main/hy2/hysteria.sh && bash hysteria.sh
 ```
@@ -155,17 +159,18 @@ systemctl restart hysteria-server.service
 ```
 
 
+# Linux常用命令
 
-# ❶一键安装依赖
-## 1.Debian/Ubuntu系统
+## ❶一键安装依赖
+### 1.Debian/Ubuntu系统
 ```
 apt update -y&&apt install -y curl&&apt install -y socat
 ```
-## 2.CentOS系统
+### 2.CentOS系统
 ```
 yum update -y&&yum install -y curl&&yum install -y socat 
 ```
-# ❷UFW防火墙
+## ❷UFW防火墙
 ### 1.一键放行22端口
 ```
 apt install ufw && ufw allow 22/tcp && ufw enable
@@ -187,20 +192,21 @@ sudo ufw status numbered
 ```
 sudo ufw delete 1
 ```
-# ❸创建和删除文件
+## ❸创建和删除文件
 ```
 mkdir /mnt/data_vdb1
 ```
 ```
 rm /mnt/data_vdb1
 ```
-# ❹查找文件和文件夹
+## ❹查找文件和文件夹
 ```
 sudo find / -type d -name "aria2"
 ```
 ```
 sudo find / -type f -iname "aria2.conf" 2>/dev/null
 ```
+
 
 # Fn飞牛
 
@@ -239,6 +245,7 @@ update-grub
 update-initramfs -u -k all
 ```
 
+
 # iStoreOS
 ## 1.修改端口号
 ```
@@ -274,4 +281,22 @@ https://op.dllkids.xyz/packages/x86_64/
 https://dl.openwrt.ai/packages-23.05/x86_64/
 ```
 
+
+# 1Panel_V1
+
+## 1.1Panel-Debian_v1
+```
+curl -sSL https://resource.fit2cloud.com/1panel/package/quick_start.sh -o quick_start.sh && bash quick_start.sh
+```
+## 2.1Panel-ubuntu_v1
+```
+curl -sSL https://resource.fit2cloud.com/1panel/package/quick_start.sh -o quick_start.sh && sudo bash quick_start.sh
+```
+## 3.常用命令
+```
+1pctl user-info
+```
+```
+1pctl update password
+```
 
