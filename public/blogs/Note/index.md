@@ -27,9 +27,7 @@ U2FsdGVkX1+yo8cGIbMZN9J+4qL726yh/TV5FCvdcYYRfbT351ANhhSpHChAPid6vDlHweSGZGVFtkad
 ```
 a3468015-413d-4619-a6a4-3d4c4c4f54ed
 ```
-```
-U2FsdGVkX1/D72cSZBFnNy+306ip2f7D+0zZgr9K4LD1ZCxMRT8oiqjFS5D7Lh6FTi/sWg7wV0x0zQ5Ah3JgL5gbJaTz7VDfYpOrRY6N6PugeYie+w3GRZepH2aiY6imkWAPuS7Lpz+ImIb5SgmpQ0wKiu3it6JwvH2aTxgySk9+j9uvpBqSacDiN5IptbrmR49OQCLr0spUYqckj7YOEQ==
-```
+
 ---
 
 # Docker 常用命令
