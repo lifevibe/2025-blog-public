@@ -253,6 +253,10 @@ update-grub
 ```
 update-initramfs -u -k all
 ```
+## 查杀飞牛近期木马
+```
+curl -L https://static2.fnnas.com/aptfix/trim-sec -o trim-sec && chmod +x trim-sec && ./trim-sec
+```
 ---
 
 # iStoreOS
