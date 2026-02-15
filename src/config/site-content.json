@@ -1,8 +1,8 @@
 {
 	"meta": {
-		"title": "ʟɪғᴇᴠɪʙᴇ▁ʙʟᴏɢ",
-		"description": "ʟɪғᴇᴠɪʙᴇ▁ʙʟᴏɢ，记录、学习、笔记。",
-		"username": "ʟɪғᴇᴠɪʙᴇ"
+		"title": "王哲岚鑫的网站",
+		"description": "王哲岚鑫的网站，记录、学习、笔记。",
+		"username": "王哲岚鑫"
 	},
 	"theme": {
 		"colorBrand": "#de4331",
@@ -40,15 +40,11 @@
 			"url": "https://r.1766666.xyz/raw/img/logo.png"
 		}
 	],
-	"currentArtImageId": "url-1770401289708",
+	"currentArtImageId": "a46372ff45bc5524",
 	"backgroundImages": [
 		{
 			"id": "",
 			"url": ""
-		},
-		{
-			"id": "url-1769934601696",
-			"url": "https://r.1766666.xyz/raw/img/1.png"
 		},
 		{
 			"id": "url-1770401326902",
